@@ -39,6 +39,7 @@
     color: white;
     padding: 20px 25px;
     font-weight: 600;
+    font-size: 1.25rem;
     border-radius: 8px;
     border: none;
 }
@@ -272,7 +273,7 @@ main> section{
   .our-features{
     margin-left: 20px;
   }
-     .facts-continer,  {
+     .facts-continer {
         gap: 24px;
         justify-items: center;
      }
@@ -290,8 +291,8 @@ main> section{
      }
 }
 
-/* mediam device */
-@media screen and (min-width:576) and (max-width:992) {
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
     .teams, .featutres{
       
         flex-direction: column;
@@ -301,7 +302,7 @@ main> section{
     margin-left: 50px auto;
     
   }
-  .sponsor-companis .facts-continer{
+  .sponsor-companis, .facts-continer{
     grid-template-columns: repeat(2,1fr);
     gap: 50px;
     justify-items: center;
@@ -318,5 +319,4 @@ main> section{
             text-align: center;
             align-items: center;
         }
-}
 }
